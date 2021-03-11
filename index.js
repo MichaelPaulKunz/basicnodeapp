@@ -1,5 +1,5 @@
 /**
- * To get the package.json and package-lock.json files that tmake all this possible in your own project,
+ * To get the package.json and package-lock.json files that make all this possible in your own project,
  * Do this in the terminal:
  * npm install
  * npm install axios
@@ -8,7 +8,6 @@
  * hit enter until the prompts finish
  * You don't have to do it here. It's already been done. Probably just need to run npm install to get the node modules
  */
-console.log('sanity test');
 const axios = require('axios');
 const express = require('express');
 const app = express(); //invoke express
@@ -30,9 +29,10 @@ const main = () => {
   })
   .catch(errorHandler);
 }
-app.listen(4242);
+app.listen(3000);
+console.log('listening on port 3000');
 //run node index.js in the terminal and enter
-//http://127.0.0.1.4242/ in browser
+//http://127.0.0.1.3000/ in browser
 
 
 //don't put axios in your tech stack image
