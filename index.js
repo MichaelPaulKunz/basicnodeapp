@@ -6,7 +6,7 @@
  * npm i express
  * npm init
  * hit enter until the prompts finish
- * You don't have to do it here. It's already been done. But if you want to recreate this in a new project, you need to do it there.
+ * You don't have to do it here. It's already been done. Probably just need to run npm install to get the node modules
  */
 console.log('sanity test');
 const axios = require('axios');
