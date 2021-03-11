@@ -16,7 +16,7 @@ const errorHandler = e => {
   return console.log('How does it feel to be WRONG?');
 }
 app.get('/', (req, res) => {
-  axios.get('http://www.realultimatepower.net/index4.htm')
+  axios.get('https://en.wikipedia.org/wiki/Mohamed_M._Atalla')
   .then(({data}) => {
     console.log(data);
     res.send(data);
@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
   .catch(errorHandler);
 })
 const main = () => {
-  axios.get('http://www.realultimatepower.net/index4.htm')
+  axios.get('https://en.wikipedia.org/wiki/Mohamed_M._Atalla')
   .then(({data}) => {
     console.log(data);
   })
